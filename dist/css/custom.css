@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #525f7f;
+    text-align: left;
+    background-color: rgb(236, 240, 250);
+}
+
+.h1 {
+    font-size:20pt;
+}
+
+.text-sm{
+    font-size: 11pt;
+}
+
+.card-commerce{
+    border-color:rgba(214, 214, 214, 0.719);
+    border:0.1px;
+}
+
+
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    transition-duration: 200ms;
+    transition-delay:100ms;
+}
+
+.card:hover {
+    position:relative;
+    bottom:2%;
+    box-shadow: -8px 10px 27px -5px rgba(207,207,207,0.75);
+    -webkit-box-shadow: -8px 10px 27px -5px rgba(207,207,207,0.75);
+    -moz-box-shadow: -8px 10px 27px -5px rgba(207,207,207,0.75);
+    transition-timing-function: cubic-bezier(0.34, 2, 0.6, 1), ease;
+    
+}
+
+.top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: left;
+    padding: 10px 15px;
+}
+/* 
+colors */
+
+.bg-primary {
+    background-color: #2c5282;
+}
+
+.bg-primary-faint {
+    background-color: #bee3f8;
+    }
+
+
+.bg-secondary {
+background-color: #dd6b20;
+}
+
+.bg-secondary-faint {
+    background-color: #fbd38d;
+    }
+
+    /* buttons */
+
+    .btn-secondary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #dd6b20;
+        --bs-btn-border-color:  #dd6b20;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg:  #f8873c;
+        --bs-btn-hover-border-color:  #f8873c;
+        --bs-btn-focus-shadow-rgb:  #f8873c;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #f8873c;
+        --bs-btn-active-border-color: #f8873c;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #f8873c;
+        --bs-btn-disabled-border-color:  #f8873c;
+    }
+
+    .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg:#2c5282;
+        --bs-btn-border-color: #2c5282;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #0b5ed7;
+        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-focus-shadow-rgb: 49,132,253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #0a58ca;
+        --bs-btn-active-border-color: #0a53be;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #0d6efd;
+        --bs-btn-disabled-border-color: #0d6efd;
+    }
+
+    /* images */
+    .avatar {
+        display: block;
+        height:64px;
+        width:64px;
+        border-radius:1rem;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+   
+    .card-overlay {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        background-color:black;
+        opacity: 70%;
+        width:100%;
+        height: 100%;
+        top:0;
+        left:0;
+       
+    }
+
+.card-text {
+    padding-top:6rem;
+    padding-bottom:3rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    position:absolute;
+    color:white;
+    z-index:1;
+}
+
+
